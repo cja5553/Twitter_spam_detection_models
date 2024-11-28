@@ -2,7 +2,7 @@ Code used to train the following 🤗 Huggingface models:
 - [`cja5553/deberta-Twitter-spam-classification`](https://huggingface.co/cja5553/deberta-Twitter-spam-classification)
 - [`cja5553/xlm-roberta-Twitter-spam-classification`](https://huggingface.co/cja5553/xlm-roberta-Twitter-spam-classification)
 
-# To use
+## To use
 
 ### `deberta-Twitter-spam-classification`
 
@@ -20,14 +20,12 @@ tokenizer = AutoTokenizer.from_pretrained("cja5553/xlm-roberta-Twitter-spam-clas
 model = AutoModelForSequenceClassification.from_pretrained("cja5553/xlm-roberta-Twitter-spam-classification")
 ```
 
-# Spam detection of Tweets
+## Spam detection of Tweets
 This model classifies Tweets from X (formerly known as Twitter) into 'Spam' (1) or 'Quality' (0). 
 
 ## Training Dataset
 
 This was fine-tuned on the [UtkMl's Twitter Spam Detection dataset](https://www.kaggle.com/c/twitter-spam/overview) with [`microsoft/deberta-v3-large`](https://huggingface.co/microsoft/deberta-v3-large) serving as the base model.
-
-## How to use model
 
 
 ## Metrics
