@@ -28,14 +28,5 @@ This model classifies Tweets from X (formerly known as Twitter) into 'Spam' (1) 
 This was fine-tuned on the [UtkMl's Twitter Spam Detection dataset](https://www.kaggle.com/c/twitter-spam/overview).
 
 
-## Metrics
-
-Based on a 80-10-10 train-val-test split, the following results were obtained on the test set:
-- Accuracy: 0.9779
-- Precision: 0.9781
-- Recall: 0.9779
-- F1-Score: 0.9779
-
-
 ## Questions?
 contact me at alba@wustl.edu
