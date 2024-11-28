@@ -25,7 +25,7 @@ This model classifies Tweets from X (formerly known as Twitter) into 'Spam' (1) 
 
 ## Training Dataset
 
-This was fine-tuned on the [UtkMl's Twitter Spam Detection dataset](https://www.kaggle.com/c/twitter-spam/overview) with [`microsoft/deberta-v3-large`](https://huggingface.co/microsoft/deberta-v3-large) serving as the base model.
+This was fine-tuned on the [UtkMl's Twitter Spam Detection dataset](https://www.kaggle.com/c/twitter-spam/overview).
 
 
 ## Metrics
