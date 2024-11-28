@@ -6,7 +6,7 @@ Code used to train the following 🤗 Huggingface models:
 
 ### `deberta-Twitter-spam-classification`
 
-```{python}
+```python
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 tokenizer = AutoTokenizer.from_pretrained("cja5553/deberta-Twitter-spam-classification")
 model = AutoModelForSequenceClassification.from_pretrained("cja5553/deberta-Twitter-spam-classification")
@@ -14,7 +14,7 @@ model = AutoModelForSequenceClassification.from_pretrained("cja5553/deberta-Twit
 
 ### `xlm-roberta-Twitter-spam-classification`  
 
-```{python}
+```python
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 tokenizer = AutoTokenizer.from_pretrained("cja5553/xlm-roberta-Twitter-spam-classification")
 model = AutoModelForSequenceClassification.from_pretrained("cja5553/xlm-roberta-Twitter-spam-classification")
