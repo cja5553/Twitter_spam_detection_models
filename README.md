@@ -1,5 +1,4 @@
-# Purpose
-Code for 🤗 Huggingface models:
+Code used to train the following 🤗 Huggingface models:
 - [`cja5553/deberta-Twitter-spam-classification`](https://huggingface.co/cja5553/deberta-Twitter-spam-classification)
 - [`cja5553/xlm-roberta-Twitter-spam-classification`](https://huggingface.co/cja5553/xlm-roberta-Twitter-spam-classification)
 
